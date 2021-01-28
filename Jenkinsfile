@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-      label 'git-2.30'
-    }
+    agent any
 
     stages {
         stage('Hello') {
