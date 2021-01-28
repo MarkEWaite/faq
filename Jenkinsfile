@@ -10,7 +10,7 @@ scm: ${scm}
 branches: ${scm.branches}
 userRemoteConfigs[0]: ${scm.userRemoteConfigs[0]}
                 """
-                // checkout scm
+                checkout scm
             }
         }
     }
